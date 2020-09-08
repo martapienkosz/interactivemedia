@@ -15,7 +15,7 @@ Here are more words.
 Here are more words.
 Here are more words.
 
-[link](https://discord.com/channels/714727038078025851/714727038078025854)
+[link](https://github.com/michaelshiloh/introduction-to-interactive-media/blob/master/README.md)
 
 Here is an image:
 ![](media/sth.jpg)
