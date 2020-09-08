@@ -4,7 +4,7 @@
 #### 4 points
 
 this is a paragraph. Here are more words.
-Here are "more" words.
+Here are **more** words.
 Here are more words.
 Here are more words.
 
@@ -15,5 +15,8 @@ Here are more words.
 Here are more words.
 Here are more words.
 
-[link](https://discord.com/channels/714727038078025851/714727038078025854
+[link](https://discord.com/channels/714727038078025851/714727038078025854)
+
+Here is an image:
+!
 
