@@ -4,7 +4,8 @@
 #### 4 points
 
 Here are **more** words.
-Here are more words.
+Here is an image: 
+![Selfportrait](martaimg.jpeg)
 Here are more words.
 
 Here is a second parahraph.
