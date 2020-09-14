@@ -1,9 +1,8 @@
-# interactivemedia
-## 2 points
+# Introduction to Interactive Media
+## This is Marta's repository
 ### 3 points
 #### 4 points
 
-this is a paragraph. Here are more words.
 Here are **more** words.
 Here are more words.
 Here are more words.
