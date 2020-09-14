@@ -1,1 +1,3 @@
-# Have a look at my portrait. It was really difficult to draw something
+# Have a look at my portrait.
+## It was really difficult to draw something
+Here is an image ![image] (martaimg.jpeg)
