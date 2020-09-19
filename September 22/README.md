@@ -34,9 +34,11 @@ void vLine2(int h, int hs) {
 
 ````
 This was the static version I have created out of lines
+
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch1.png" width="300">
 
 I created a delicate background by adding vertical lines
+
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch2.png" width="300"> 
 
 ### 3. Animation
@@ -72,4 +74,7 @@ void hLine1(int v, int vs){
 ````
 
 Here are the screenshots form my simple animation
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch3.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch4.png" width="300"> 
+
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch3.png" width="300">
+
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch4.png" width="300"> 
