@@ -1,5 +1,5 @@
-### Animation, Conditionals, Loops
-## This is a simple work of art
+## Animation, Conditionals, Loops
+### This is a simple work of art
 
 
 ````
@@ -17,3 +17,6 @@ void draw () {
 }
 
 ````
+
+![tekst alternatywny](url grafiki)
+<img src="https://media.wired.com/photos/5926db217034dc5f91becd6b/master/w_582,c_limit/so-logo-s.jpg" width="250">
