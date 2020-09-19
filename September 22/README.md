@@ -75,6 +75,4 @@ void hLine1(int v, int vs){
 
 Here are the screenshots form my simple animation
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch3.png" width="300">
-
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch4.png" width="300"> 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch3.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex2_sketch4.png" width="300"> 
