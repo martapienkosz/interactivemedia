@@ -1,6 +1,13 @@
 ## Animation, Conditionals, Loops
 ### This is a simple work of art
 
+### Idea
+The main idea behind this project was to create an allusion of depth on a 2D screen. I tried to manipulate lines and colors to create cubic structures. 
+I'm not very familiar with rgb palettes so decided to google some interesting pastel colors in shades of blue.
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/blue.png" width="250">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/grey.png" width="250">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/dark_blue.png" width="250">
+
 
 ````
 void setup() {
