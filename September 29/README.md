@@ -147,8 +147,16 @@ class Line {
     line(0, ypos, width, ypos);
   }
 ````
+### 4. Changing speed
+Nextly I added the `random(5)` component so that every time the ball hits the edge of canvas, its speed changes slightly.
 
-### 4. Changing background to white:
+````
+    if (xpos > width || xpos < 0) { 
+      speedV = -speedV +random(5);
+      }
+````
+
+### 5. Changing background to white:
 At the very end I decided to do one more change. I have incorporated `mousePressed` function to the `void draw()`.
 
 ````
