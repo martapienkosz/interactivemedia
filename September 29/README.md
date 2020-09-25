@@ -4,7 +4,7 @@
 ### 1. Final work
 Please have a look at my final animation. 
 
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/movingGridClass.gif)
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/movingGridClass.gif, width="200")
 
 Below I describe the process of creating it.
 
@@ -58,8 +58,7 @@ void draw() {
 ### 2. A grid of moving lines
 Later I have decided to add also horizontally moving lines. I had to define two more variables (`x` and `sV`) as well as create two more functions (`updateV` and `drawLineV`). At this point, I started to wonder what if I wanted a different number of lines for each direction? I tried inserting a new constructor and a second array but it didn't work as I wanted. Maybe I should just create a new class ...
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/Moving_grid1.png" width="200"> 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/Moving_grid2.png" width="200"> 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/Moving_grid1.png" width="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/Moving_grid2.png" width="200"> 
 
 This is part of the code:
 ````
@@ -180,6 +179,5 @@ void draw() {
 
 ````
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/colorful_grid1.png" width="200"> 
-<img src="https://https://github.com/martapienkosz/interactivemedia/blob/master/Media/colorful_grid2.png" width="200"> 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/colorful_grid1.png" width="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/colorful_grid2.png" width="200"> 
 
