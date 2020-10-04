@@ -4,7 +4,7 @@
 ### 1. Final image
 This is my first work in processing: a very simple selfportrait.
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/martaimg.jpeg" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/martaimg.jpeg" width="400">
 
 ### 2. Challenges: color
 Using the rgb pallet turned out to be the most difficult part of this task. I'm not quite sure how to choose the numbers to create a realistic color. I found Google to very helpful.
@@ -19,6 +19,7 @@ arc (380, 273, 65, 25, radians(210), radians(330), CHORD);
 arc (520, 273, 65, 25, radians(210), radians(330), CHORD);
 ````
 Below is the picture of an arc with the CHORD part (left eyelid) and without (right eyelid).
+
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_1.eyelids.png" width="300">
 
 ### 4. Arcs and angles
