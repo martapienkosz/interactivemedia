@@ -4,7 +4,7 @@
 ### 1. Final image
 This is my first work in processing: a very simple selfportrait.
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/martaimg.jpeg" width="400">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/martaimg.jpeg" width="500">
 
 ### 2. Challenges: color
 Using the rgb pallet turned out to be the most difficult part of this task. I'm not quite sure how to choose the numbers to create a realistic color. I found Google to very helpful.
