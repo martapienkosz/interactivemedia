@@ -4,7 +4,7 @@
 ### 1. Final work
 Please have a look at my final animation. 
 
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/LinesFunctions.gif width="200")
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/LinesFunctions.gif)
 
 Below I describe the process of creating it.
 
