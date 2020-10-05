@@ -29,7 +29,7 @@ for (int i = 0; i < data.length; i ++ ) {
 ````
 This were the results:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.6.png" width="250"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.7.png" width="250"> 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.6.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.7.png" width="300"> 
 
 ### 4. Creating animation
 Nextly, I set up `frameRate (6)` and used the expression below in a drawing function to have each frame draw another circle at a random location. I wanted the circles to move slowly across the screen, but I liked the effect of endless fading in and out of circles. Finding experimentally a right number for opacity was super vital.
@@ -54,4 +54,4 @@ void draw() {
 
 I have to say I really like the effect of the two mixing colors shown in the screenshot below.
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.5.png" width="250"> 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.5.png" width="400"> 
