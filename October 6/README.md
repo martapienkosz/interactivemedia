@@ -30,3 +30,28 @@ for (int i = 0; i < data.length; i ++ ) {
 This were the results:
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.6.png" width="250"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.7.png" width="250"> 
+
+### 4. Creating animation
+Nextly, I set up `frameRate (6)` and used the expression below in a drawing function to have each frame draw another circle at a random location. I wanted the circles to move slowly across the screen, but I liked the effect of endless fading in and out of circles. Finding experimentally a right number for opacity was super vital.
+
+At the end I added `mousePressed` function to increase a level of interactivity. 
+
+````
+void draw() {
+  for (int i = 0; i < data.length; i ++ ) {
+    // Update the position of the shape
+    xpos = random(width);
+    ypos = random(height);
+    if (mousePressed == true) {
+      fill(100, data[i], 200, 60);
+    } else {
+      fill(100, 100, data[i], 60);
+    }
+    ellipse(random(width), random(height), data[i], data[i]);
+  }
+}
+````
+
+I have to say I really like the effect of the two mixing colors shown in the screenshot below.
+
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.5.png" width="250"> 
