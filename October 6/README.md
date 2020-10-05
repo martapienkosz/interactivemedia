@@ -16,7 +16,7 @@ I found a very inteersting data set on Kaggle: [All space missions form 1957](ht
 ### 2. Exporting data to csv and processing
 I have creating a simplified verison of excel file, containing only numbers without the company names. I struggled to export data to processing, I tried both the terminal and csv export option. Only later I have discovered that the csv file must be located in the data folder where the processing file is. I used the example form the lesson to check if it works.
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.4.png" width="700">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.1.png" width="700">
 
 ### 3. Creating circles
 I have created circles that visually represent the number of missions started by a given companion. The diameter of each circle corresponds to the value of the missions carried out. The largest circle therefore represents the RVSN USSR's 1777 missions. The second largest is Arianespace with 279 missions. I was suprised to discovered that NASA carried only 203 missions.
