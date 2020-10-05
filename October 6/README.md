@@ -21,7 +21,7 @@ I have creating a simplified verison of excel file, containing only numbers with
 ### 3. Creating circles
 I have created circles that visually represent the number of missions started by a given companion. The diameter of each circle corresponds to the value of the missions carried out. The largest circle therefore represents the RVSN USSR's 1777 missions. The second largest is Arianespace with 279 missions. I was suprised to discovered that NASA carried only 203 missions.
 
-This is part of the code that randomly places circles with a specified diameters and colors placed in `setup()`:
+This is part of the `setup()` code that randomly places circles with a specified diameters and colors:
 
 ````
 for (int i = 0; i < data.length; i ++ ) {
