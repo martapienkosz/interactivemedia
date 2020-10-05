@@ -21,7 +21,8 @@ I have creating a simplified verison of excel file, containing only numbers with
 ### 3. Creating circles
 I have created circles that visually represent the number of missions started by a given companion. The diameter of each circle corresponds to the value of the missions carried out. The largest circle therefore represents the RVSN USSR's 1777 missions. The second largest is Arianespace with 279 missions. I was suprised to discovered that NASA carried only 203 missions.
 
-This is part of the code that randomly places circles with a specified diameters and colors:
+This is part of the code that randomly places circles with a specified diameters and colors placed in `setup()`:
+
 ````
 for (int i = 0; i < data.length; i ++ ) {
   fill(0, 0, data[i], 60);
@@ -29,10 +30,10 @@ for (int i = 0; i < data.length; i ++ ) {
 ````
 This were the results:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.6.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.7.png" width="300"> 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.6.png" width="350"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.7.png" width="350"> 
 
 ### 4. Creating animation
-Nextly, I set up `frameRate (6)` and used the expression below in a drawing function to have each frame draw another circle at a random location. I wanted the circles to move slowly across the screen, but I liked the effect of endless fading in and out of circles. Finding experimentally a right number for opacity was super vital.
+Nextly, I set up `frameRate (6)` and used the expression below in a `void draw()`, so that during each frame another circle is being drawn at a random location. At frst, I wanted the circles to move slowly across the screen, however I liked the effect of endless fading in and out of circles. Finding experimentally a right number for opacity was super vital.
 
 At the end I added `mousePressed` function to increase a level of interactivity. 
 
