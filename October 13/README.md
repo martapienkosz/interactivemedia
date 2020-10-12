@@ -4,7 +4,7 @@
 ### 1. Final work
 Please have a look at my final image. 
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_7.png" width="600">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_7.png" width="450">
 
 Below I describe the process of creating it.
 
