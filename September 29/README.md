@@ -8,7 +8,7 @@ Please have a look at my final animation.
 
 Below I describe the process of creating it.
 
-### 1. Vertically moving lines
+### 2. Vertically moving lines
 Based on the `movingCircle` program, which we discussed in class, I created very simple animation of vertically moving lines on a black background. Once the line touches the edge of canvas, it changes direction. Here is the code:
 
 ````
@@ -55,7 +55,7 @@ void draw() {
 }
 ````
 
-### 2. A grid of moving lines
+### 3. A grid of moving lines
 Later I have decided to add also horizontally moving lines. I had to define two more variables (`x` and `sV`) as well as create two more functions (`updateV` and `drawLineV`). At this point, I started to wonder what if I wanted a different number of lines for each direction? I tried inserting a new constructor and a second array but it didn't work as I wanted. Maybe I should just create a new class ...
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/Moving_grid1.png" width="250"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/Moving_grid2.png" width="250"> 
@@ -119,7 +119,7 @@ void draw() {
 }
 
 ````
-### 3. Changing weight, color and opacity:
+### 4. Changing weight, color and opacity:
 My next step was to make `strokeWeight` and `stroke` random for every line. I have incorporated new variables to `update` function, so that every time the line hits the edge of canvas the weight, color and opacity changes.
 ````
 class Line { 
@@ -149,7 +149,7 @@ class Line {
     line(0, ypos, width, ypos);
   }
 ````
-### 4. Changing speed
+### 5. Changing speed
 Nextly I added the `random(5)` component so that every time the ball hits the edge of canvas, its speed changes slightly.
 
 ````
@@ -158,7 +158,7 @@ Nextly I added the `random(5)` component so that every time the ball hits the ed
       }
 ````
 
-### 5. Changing background to white:
+### 6. Changing background to white:
 At the very end I decided to do one more change. I have incorporated `mousePressed` function to the `void draw()`.
 
 ````
