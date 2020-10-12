@@ -70,4 +70,4 @@ void draw() {
 ````
 
 ###. Picture
-Over the summer I have visited an extermely wonderful place, the (Warsaw's Neon Museum)[http://www.neonmuzeum.org/english]. That's where I took this photo.
+Over the summer I have visited an extermely wonderful place, the [Warsaw's Neon Museum](http://www.neonmuzeum.org/english). That's where I took this photo.
