@@ -20,6 +20,7 @@ for (int i=0; i<= 50; a++) {
 }
 ````
 This were the effects. Changing the opacity to `tint(225, 225, 225, 150)` for the third picture resulted in an even better effect:
+
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_8.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_9.png" width="300">  <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_6.png" width="300">  
 
 
@@ -67,3 +68,6 @@ void draw() {
   }
 }
 ````
+
+###. Picture
+Over the summer I have visited an extermely wonderful place, the (Warsaw's Neon Museum)[http://www.neonmuzeum.org/english]. That's where I took this photo.
