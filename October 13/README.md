@@ -8,7 +8,8 @@ Please have a look at my final image.
 
 Below I describe the process of creating it.
 
-### 1. Finding database
+
+### 2. Idea
 The idea behind this design was to shuffle certain regular parts of the picture, thus creating a disorder. At first I decided to randomly place randomly chosen parts of the image:
 
 ````
@@ -21,7 +22,8 @@ for (int i=0; i<= 50; a++) {
 This were the effects. Changing the opacity to `tint(225, 225, 225, 150)` for the third picture resulted in an even better effect:
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_8.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_9.png" width="300">  <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/5_6.png" width="300">  
 
-### 2. Nested for loop
+
+### 3. Nested for loop
 The outcome was slightly too random, therefore I have decided to shuffle parts only with an establish grid. I have introduced new variables `a` to determine more precise x and y position (`0+a*tileSize` and `(0+i*tileSize`).
 
 ````
@@ -48,7 +50,7 @@ int tileAmount = int(random(5,40));
 int tileSize = 1000/tileAmount;
 ````
 
-### 3. Mouse Pressed
+### 4. Mouse Pressed
 At the very end I have incorporated `mousePressed` function, so that user has a choice to shuffle parts of picture. 
 
 ````
