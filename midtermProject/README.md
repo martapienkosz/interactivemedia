@@ -28,4 +28,4 @@ This very early stage of the game is based on the four if statements.
   }
 ````
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/1.png" width="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/2.png" width="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/3.png" width="200">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/1.png" height="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/2.png" height="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/3.png" height="200">
