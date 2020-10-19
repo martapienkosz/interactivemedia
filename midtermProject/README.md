@@ -1,5 +1,4 @@
-## Midterm Project
-### Bouncil ball
+## Midterm Project: Bouncing ball
 
 ### 1. Overwiew
 To be reviewed.
