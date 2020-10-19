@@ -3,6 +3,8 @@
 ### 1. Overwiew
 To be reviewed.
 
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/bird.gif)
+
 ### 2. Process
 
 #### Step 1: Creation of sliders and concept of the game
