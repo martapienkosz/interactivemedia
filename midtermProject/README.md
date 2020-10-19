@@ -73,19 +73,5 @@ if (xspeed == 0) {
     }
   }
 ````
-````
-void restart() {
-  if (ypos < 0 || xpos < 0 || xpos > width || ypos >height) {
-    xspeed = 0;
-    yspeed = 0;
-    xpos = width/3;
-    ypos = height/2;
-    cnt = 10;
-    if (score > highscore) {
-      highscore = score;
-      hs = 1;
-    }
-  }
-}
-````
+
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="300">
