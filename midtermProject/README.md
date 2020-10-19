@@ -2,7 +2,7 @@
 
 ### 1. Overwiew
 To be reviewed.
-<p align="center"> ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif) </p>
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
 ### 2. Process
 
