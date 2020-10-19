@@ -34,6 +34,7 @@ The game phase begins when the user presses any key on the keyboard. Then the sp
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/4.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/5.png" height="300">
 
+
 ### Step 3: Displaying score
 The score counter in my game partially consists of joined picture and text. I prefered the handwritten score sign, so I loaded a picture `img_score = loadImage("score.png");`. Nextly I defined a `score` variable, which increases every time bird hits the slider.
 
@@ -43,6 +44,7 @@ The score counter in my game partially consists of joined picture and text. I pr
   textSize(38);
   text(score, 145, 786);
 ````
+
 
 ### Step 4: Incorporating sound
 I imported the `Keyboard` library from the` Soundfile` and used it to add sound to my game. I created a board of four votes. Each time the bird hits the slider, a sound will be played.
@@ -58,7 +60,7 @@ void updateRight() {
 ````
 
 ### Step 5: Restart
-I created a `void restart ()` with an if statement ʻif (ypos <0 || xpos <0 || xpos> width || ypos> height) `. Every time the bird flies over the canvas, the x and y speed is 0 and the bird returns to its original position. What's more, in Photoshop I prepared two more graphics: `game over` and ʻit's a highscore`. Then I defined more variables in my code so that the appropriate picture is displayed, the instructions are displayed at the very beginning and a "game over" sign is displayed after each loss. 
+I created a `void restart ()` with an if statement `if (ypos <0 || xpos <0 || xpos> width || ypos> height)`. Every time the bird flies over the canvas, the x and y speed is 0 and the bird returns to its original position. What's more, in Photoshop I prepared two more graphics: `game over` and  `it's a highscore`. Then I defined more variables in my code so that the appropriate picture is displayed, the instructions are displayed at the very beginning and a "game over" sign is displayed after each loss. 
 
 ````
 if (xspeed == 0) {
