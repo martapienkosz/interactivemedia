@@ -3,9 +3,7 @@
 ### 1. Overwiew
 To be reviewed.
 
-### 2. Challanges
-
-### 3. Process
+### 2. Process
 
 #### Step 1: Creation of sliders and concept of the game
 
