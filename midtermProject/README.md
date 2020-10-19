@@ -2,7 +2,9 @@
 
 ### 1. Overwiew
 To be reviewed.
+<p align="center">
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
+</p>
 
 ### 2. Process
 
@@ -12,6 +14,7 @@ The initial idea was to create a simple game in which the ball bounces off the w
 
 This very early stage of the game is based on the four if statements.
 
+<p align="center">
 ````
   if (xpos < (25+30) && (mouseY>ypos-50 && mouseY<ypos+50)) {
     xspeed = -xspeed;
@@ -26,6 +29,7 @@ This very early stage of the game is based on the four if statements.
     yspeed = -yspeed;
   }
 ````
+                                                            </p>
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/1.png" height="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/2.png" height="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/3.png" height="200">
 
