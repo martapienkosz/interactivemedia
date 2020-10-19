@@ -33,4 +33,4 @@ This very early stage of the game is based on the four if statements.
 
 ### Step 2: Game start implementation, signifiers
 The game phase begins when the user presses any key on the keyboard. Then the speed changes from 0 to a specific value, the ball starts to move on the screen. To make the game more understandable for the user, I created simple signifiers in Photoshop that will be displayed at the very beginning
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/4.png" weight="400">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/4.png" height="300">
