@@ -129,5 +129,5 @@ Finally, in Photoshop create another graphic signifing where to click to go back
   }
 ````
 
-  <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/11.png" height="300">
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/VidChar.gif)
   
