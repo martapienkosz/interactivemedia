@@ -85,7 +85,47 @@ This is a finalised verion of a game phase
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
-###### Developments: Could a player choose a charcter at the very begining?
+Developments: Could a player choose a charcter at the very begining?
 
-3
+### Step 7: Choose a player
+To create a screen with the option to choose heroes, I needed to find an interesting [background](https://cdn.gamedevmarket.net/wp-content/uploads/20191203194140/a07df83365da6ca90f635c0ba20bb6f8f3e958af.jpg) and graphics with [characters](https://pl.pinterest.com/pin/688839705474821810/). Then, in Photoshop, I added signifiers and cropped individual characters from a merged graphic. In this way I have create a separate graphic with reference for each. It was very important that the dimensions of the characters were square so that the code would work regardless user selection. At this point I had to improvise a little and redraw the figure of the mushroom by hand.
 
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/9.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/10.png" height="300">
+
+### Step 8: Initiating character selection
+In the function `void MousePressed`, I have added some if statements so that you can select a character by clicking on it. I also assigned the value "false" to the variable "start". This allowed the game instructions o be displayed as soon as the character has been selected.
+
+````
+void mousePressed() {
+  if (mouseX>0 && mouseX<250 && mouseY>200 && mouseY<450) {
+    character = 1;
+    start = false;
+  }
+````
+  
+````
+void choose_character() {
+  if (start == true) {
+    image(img_choosecharacter, 0, 0, 800, 800);
+  }
+}
+
+void instructions() {
+  if (start == false) {
+    image(img_background, 0, 0, 800, 800);
+    image(img_score, 40, 760, 100, 30);
+    fill(255);
+    textSize(38);
+    text(score, 145, 786);
+ ````
+
+### Step 9: Choosing character at any time
+Finally, in Photoshop create another graphic signifing where to click to go back to the character selection screen. This way after loosing a game player can choose another character and start again. Of course, user can as well press any key to start again without a need for selection.
+
+  if (mouseX>530 && mouseX<620 && mouseY>490 && mouseY<580) {
+    character = 0;
+    start = true;
+  }
+  
+  <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/11.png" height="300">
+  
