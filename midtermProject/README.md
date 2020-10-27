@@ -1,7 +1,7 @@
 ## Midterm Project: Bouncing ball
 
 ### 1. Overwiew
-Please download the game phase here: [here](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/MidTermVid.mp4).
+Please download the game phase video: [here](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/MidTermVid.mp4).
 
 ### 2. Process
 
