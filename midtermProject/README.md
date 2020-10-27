@@ -3,7 +3,7 @@
 ### 1. Overwiew
 Check the preview below:
 
-[alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/MidTermVidShort.gif)
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/MidTermVidShort.gif)
 
 Or have a look at the finalized version of the game phase [video](https://youtu.be/9hIf1NkiTdU).
 
