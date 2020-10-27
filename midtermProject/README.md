@@ -92,7 +92,7 @@ if (xspeed == 0) {
 
 
 ## Step 6: Revise project
-This is a finalised verion of a game phase
+This is a finalised version of a game phase
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
@@ -147,4 +147,7 @@ Finally, in Photoshop create another graphic signifing where to click to go back
 ````
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/VidChar.gif)
+
+
+## Conclusion
   
