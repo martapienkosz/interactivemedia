@@ -88,7 +88,7 @@ This is a finalised verion of a game phase
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
-Developments: Could a player choose a charcter at the very begining?
+Developments: Could a player choose a character at the very begining?
 
 
 ### Step 7: Choose a character to play with
