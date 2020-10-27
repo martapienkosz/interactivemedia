@@ -4,6 +4,7 @@
 For this midterm project, I decided to create a simple game in which the ball bounces off the mouse controlled slider and cannot hit the wall. I believe there is something magical about simplicity, and it is the simplest, age-old games like snake that are often seen as some of the most entertaining.
 
 Check the preview below:
+
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/MidTermVidShort.gif)
 
 Or have a look at the finalized version of the game phase [video](https://youtu.be/9hIf1NkiTdU).
