@@ -3,7 +3,7 @@
 ### 1. Overwiew
 To be reviewed.
 
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
+
 
 ### 2. Process
 
@@ -87,6 +87,7 @@ This is a finalised verion of a game phase
 
 Developments: Could a player choose a charcter at the very begining?
 
+
 ### Step 7: Choose a player
 To create a screen with the option to choose heroes, I needed to find an interesting [background](https://cdn.gamedevmarket.net/wp-content/uploads/20191203194140/a07df83365da6ca90f635c0ba20bb6f8f3e958af.jpg) and graphics with [characters](https://pl.pinterest.com/pin/688839705474821810/). Then, in Photoshop, I added signifiers and cropped individual characters from a merged graphic. In this way I have create a separate graphic with reference for each. It was very important that the dimensions of the characters were square so that the code would work regardless user selection. At this point I had to improvise a little and redraw the figure of the mushroom by hand.
 
@@ -122,10 +123,12 @@ void instructions() {
 ### Step 9: Choosing character at any time
 Finally, in Photoshop create another graphic signifing where to click to go back to the character selection screen. This way after loosing a game player can choose another character and start again. Of course, user can as well press any key to start again without a need for selection.
 
+````
   if (mouseX>530 && mouseX<620 && mouseY>490 && mouseY<580) {
     character = 0;
     start = true;
   }
-  
+````
+
   <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/11.png" height="300">
   
