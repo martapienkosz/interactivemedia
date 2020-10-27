@@ -87,7 +87,7 @@ if (xspeed == 0) {
   }
 ````
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="300"> ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="260"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="260"> ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
 
 
