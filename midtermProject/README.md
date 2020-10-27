@@ -87,7 +87,7 @@ if (xspeed == 0) {
   }
 ````
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="300"> ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
 
 
@@ -96,7 +96,7 @@ This is a finalised version of a game phase
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
-Developments: Could a player choose a character at the very begining?
+**Developments**: Could a player choose a character at the very begining?
 
 
 
