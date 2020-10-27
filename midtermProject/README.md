@@ -87,27 +87,20 @@ if (xspeed == 0) {
   }
 ````
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="260"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="260"> ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
-
-
-
-## Step 6: Revise project
-This is a finalised version of a game phase
-
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/7.png" height="200"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/8.png" height="200"> ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/midtermProject.gif)
 
 **Developments**: Could a player choose a character at the very begining?
 
 
 
-## Step 7: Choose a character to play with
+## Step 6: Choose a character to play with
 To create a screen with the option to choose character, I needed to find an interesting [background](https://cdn.gamedevmarket.net/wp-content/uploads/20191203194140/a07df83365da6ca90f635c0ba20bb6f8f3e958af.jpg) and graphics with [characters](https://pl.pinterest.com/pin/688839705474821810/). Then, in Photoshop, I added signifiers and cropped individual characters from a merged graphic. In this way I have create a separate graphic with reference for each. It was very important that the dimensions of the characters were square so that the code would work regardless user selection. At this point I had to improvise a little and redraw the figure of the mushroom by hand.
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/9.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/10.png" height="300">
 
 
 
-## Step 8: Initiating character selection
+## Step 7: Initiating character selection
 In the function `void MousePressed`, I have added some if statements so that you can select a character by clicking on it. I also assigned the value "false" to the variable "start". This allowed the game instructions o be displayed as soon as the character has been selected.
 
 ````
@@ -136,7 +129,7 @@ void instructions() {
 
 
 
-## Step 9: Reseting the character
+## Step 8: Reseting the character
 Finally, in Photoshop create another graphic signifing where to click to go back to the character selection screen. This way after loosing a game player can choose another character and start again. Of course, user can as well press any key to start again without a need for selection.
 
 ````
