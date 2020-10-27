@@ -71,6 +71,7 @@ if (xspeed == 0) {
     }
     if (cnt == 10) {
       image(img_gameover, 155, 480, 340, 150);
+      image(img_changecharacter, 530,400,220,180);
     }
     if (hs == 1) {
       image(img_highscore, 290, 320, 370, 90);
@@ -88,8 +89,8 @@ This is a finalised verion of a game phase
 Developments: Could a player choose a charcter at the very begining?
 
 
-### Step 7: Choose a player
-To create a screen with the option to choose heroes, I needed to find an interesting [background](https://cdn.gamedevmarket.net/wp-content/uploads/20191203194140/a07df83365da6ca90f635c0ba20bb6f8f3e958af.jpg) and graphics with [characters](https://pl.pinterest.com/pin/688839705474821810/). Then, in Photoshop, I added signifiers and cropped individual characters from a merged graphic. In this way I have create a separate graphic with reference for each. It was very important that the dimensions of the characters were square so that the code would work regardless user selection. At this point I had to improvise a little and redraw the figure of the mushroom by hand.
+### Step 7: Choose a character to play with
+To create a screen with the option to choose character, I needed to find an interesting [background](https://cdn.gamedevmarket.net/wp-content/uploads/20191203194140/a07df83365da6ca90f635c0ba20bb6f8f3e958af.jpg) and graphics with [characters](https://pl.pinterest.com/pin/688839705474821810/). Then, in Photoshop, I added signifiers and cropped individual characters from a merged graphic. In this way I have create a separate graphic with reference for each. It was very important that the dimensions of the characters were square so that the code would work regardless user selection. At this point I had to improvise a little and redraw the figure of the mushroom by hand.
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/9.png" height="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/midtermProject/Media/10.png" height="300">
 
@@ -120,7 +121,7 @@ void instructions() {
     text(score, 145, 786);
  ````
 
-### Step 9: Choosing character at any time
+### Step 9: Reseting the character
 Finally, in Photoshop create another graphic signifing where to click to go back to the character selection screen. This way after loosing a game player can choose another character and start again. Of course, user can as well press any key to start again without a need for selection.
 
 ````
