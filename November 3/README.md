@@ -1,17 +1,35 @@
-## Data visualization
-### This is a simple work of art
+## LightGame
+### Get10
 
-### 1. Final work
-Please have a look at my final animation. 
+### 1. Idea
+The idea is to assign a certain amount of points to every buttom. The player needs to press buttoms in a way, that the sumation of points would give 10 point. Then all the lighs lit. 
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/spaceAnimation.gif)
 
 Below I describe the process of creating it.
 
-### 2. Finding database
-I found a very inteersting data set on Kaggle: [All space missions form 1957](https://www.kaggle.com/agirlcoding/all-space-missions-from-1957). I decided to simplify the data and present visually how many times a given company has carried out a space mission. I used a excel `COUNTIF` to do so.
+### 2. Challanges
+For some reason assigning cnt variable didn't work :(
+````
+  BUTTONstate4 = digitalRead(yellowButton);
+  if (BUTTONstate4 == HIGH) {
+    digitalWrite(yellowLED, HIGH);
+    delay(100);
+    cnt += 5;
+  }
+  else {
+    digitalWrite(yellowLED, LOW);
+  }
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.2.png" width="700"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.3.png" width="170">
+  if (cnt == 10) {
+    digitalWrite(blueLED, HIGH);
+    digitalWrite(redLED, HIGH);
+    digitalWrite(greenLED, HIGH);
+    digitalWrite(yellowLED, HIGH);
+    cnt = 0;
+  }
+}
+````
 
 ### 3. Exporting data to csv and processing
 I have creating a simplified verison of excel file, containing only numbers without the company names. I struggled to export data to processing, I tried both the terminal and csv export option. Only later I have discovered that the csv file must be located in the data folder where the processing file is. I used the example form the lesson to check if it works. [Here](https://github.com/martapienkosz/interactivemedia/blob/master/October%206/data/space.csv) you can find finalized data in a correct format.
@@ -23,11 +41,6 @@ I have created circles that visually represent the number of missions started by
 
 This is part of the `setup()` code that randomly places circles with a specified diameters and colors:
 
-````
-for (int i = 0; i < data.length; i ++ ) {
-  fill(0, 0, data[i], 60);
-  ellipse(random(width), random(height), data[i], data[i]);
-````
 This were the results:
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.6.png" width="350"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/ex_4.7.png" width="350"> 
@@ -37,21 +50,6 @@ Nextly, I set up `frameRate (6)` and used the expression below in a `void draw()
 
 At the end I added `mousePressed` function to increase a level of interactivity. 
 
-````
-void draw() {
-  for (int i = 0; i < data.length; i ++ ) {
-    // Update the position of the shape
-    xpos = random(width);
-    ypos = random(height);
-    if (mousePressed == true) {
-      fill(100, data[i], 200, 60);
-    } else {
-      fill(100, 100, data[i], 60);
-    }
-    ellipse(random(width), random(height), data[i], data[i]);
-  }
-}
-````
 
 I have to say I really like the effect of the two mixing colors shown in the screenshot below.
 
