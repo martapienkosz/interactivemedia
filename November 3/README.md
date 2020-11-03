@@ -11,7 +11,7 @@ Here is the Schematic:
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov30.png" width="600">
 
 And real pictures:
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov31.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov32.png" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov33.png" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov31.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov32.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov33.jpg" width="300">
 
 
 ### 3. Challanges
