@@ -7,7 +7,7 @@ The idea behind this game was to assign a certain number of points to each butto
 ### 3. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov30.png" width="900">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/n30.png" width="800">
 
 And real pictures:
 
