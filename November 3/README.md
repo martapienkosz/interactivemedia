@@ -37,3 +37,15 @@ For some reason assigning cnt variable didn't work.
 }
 ````
 I am not sure why is that, and what to make to change it. I uploaded the code I came up with. When the yellow button is pressed all the lights switch on. I think it might be because if statements are in the `void loop()`.
+
+### 4.Attempts
+````
+  if (b == true) {
+    cnt = 0;
+    b = false;
+    Serial.print("red is true; adding 1; count = ");
+    Serial.println(cnt);
+  }
+``` 
+
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov34.jpg" width="300">
