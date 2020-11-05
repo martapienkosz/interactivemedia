@@ -48,4 +48,4 @@ I am not sure why is that, and what to make to change it. I uploaded the code I 
   }
 ``` 
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov34.jpg" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov34.png" width="300">
