@@ -14,7 +14,7 @@ Here is the Schematic:
 
 And real pictures:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov101.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov102.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov103.jpg" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov101.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov102.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov104.jpg" width="300">
 
 ### 3. Initiating switch
 I used modulus operator to detect every second time user presses the button. This way LED can be turned on and off, user doesn't no longer have to hold the button.
