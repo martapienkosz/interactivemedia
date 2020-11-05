@@ -2,11 +2,12 @@
 ### Get10
 
 ### 1. Idea
-The idea behind this game was to assign a certain number of points to each button. The player has to press the buttons in such a way that the sum of the points gives 10 points. Then all the lights come on. I wanted to assign 0 to blue, 2 to red, 1 to green, and 5 to yellow. Thus, when the user presses the red button 5 times or the yellow button 2, all the lights will come on. Of course, the player is unaware of what value is assigned to each button.
+The idea behind this game was to assign a certain number of points to each button ( 0 to blue, 2 to red, 1 to green, and 5 to yellow). The player has to press the buttons in such a way that the sum of the points gives 10 points. Then all the lights turn on.
 
 This is a little preview. When I press 5 times red light, all lights turn on. The same is happening when I press yellow button 2 times. 
 
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/spaceAnimation.gif)
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/lightgame.mov)
+
 
 ### 3. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
