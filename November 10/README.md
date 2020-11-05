@@ -10,7 +10,7 @@ For this project I decided to use one analog sensor (potentiometer), two digital
 ### 3. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/n100.png" width="800">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov100.png" width="800">
 
 And real pictures:
 
