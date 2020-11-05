@@ -46,6 +46,6 @@ I am not sure why is that, and what to make to change it. I uploaded the code I 
     Serial.print("red is true; adding 1; count = ");
     Serial.println(cnt);
   }
-``` 
+```` 
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov34.png" width="300">
