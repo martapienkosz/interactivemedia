@@ -4,9 +4,7 @@
 ### 1. Idea
 The idea behind this game was to assign a certain number of points to each button ( 0 to blue, 2 to red, 1 to green, and 5 to yellow). The player has to press the buttons in such a way that the sum of the points gives 10 points. Then all the lights turn on.
 
-This is a little preview. When I press 5 times red light, all lights turn on. The same is happening when I press yellow button 2 times. 
-
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/lightgame.mp4)
+[This](https://drive.google.com/file/d/1cJuxmFrOOYxCLkkAzot4Eugvc62cvOrp/view?usp=sharing) is a little preview. When I press 5 times red light, all lights turn on. The same is happening when I press yellow button 2 times. 
 
 
 ### 3. Breadbord, coneccting wires, leds and buttons.
