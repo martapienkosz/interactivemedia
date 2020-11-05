@@ -1,3 +1,7 @@
+//Lightgame: Get10. Certain numbers of points are assigned to each button. Press the buttons in such a way that the sum of the points gives 10 points.
+//Marta Pienkosz, due November 3
+//pressing a button turns a LED on
+
 const int blueLED = 12;
 const int redLED = 10;
 const int greenLED = 8;
