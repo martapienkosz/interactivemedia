@@ -55,7 +55,7 @@ Serial.println(cnt);
 
 ### 4.Solution
 
-The right solution is to detect when the button transitions from not being pressed to being pressed, and count that event. This will be immune to long presses because the transition only happens once no matter how long the button is pressed. Just two if statements were needed for the buttonPushCounter to work the way I needed it.
+The right solution is to detect when the button transitions from not being pressed to being pressed, and count that event. This will be immune to long presses because the transition only happens once no matter how long the button is pressed. Just two if statements were needed for the buttonPushCounter to work the way I needed it. It is explained better in [this article](https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection).
 
 ````
   if (BUTTONstate4 != lastButtonState4) {
