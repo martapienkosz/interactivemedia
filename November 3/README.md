@@ -41,7 +41,7 @@ so even if I try to press and release the button as quickly as I can, loop() mig
 }
 ````
 
-Those code snipeds helped me to detect an error : 
+Those code snippets helped me to detect an error : 
 
 ```
 Serial.begin(9600);
@@ -63,5 +63,3 @@ The right solution is to detect when the button transitions from not being press
   }
   lastButtonState4 = BUTTONstate4;
  ````
-
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov34.png" width="300">
