@@ -1,11 +1,10 @@
-## Analog input
-### Fading
+## Sound
+### Musical Instrument
 
 ### 1. Idea
-For this project I decided to use one analog sensor (potentiometer), two digital sensors (buttons) as well as two LEDs. I wanted buttons to work as a switches that turn LEDs on and off (player doesn't have to hold the button for LED to stay on). Adjusting the potentiometer additionally changes the frequency at which the LED goes out.
+For this project I decided to use one analog sensor (photoresistor), three digital sensors (toggle switches) as well as a buzzer. When the user presses the button once, a sound is played. Pressing the button again turns the sound off. Pressing two buttons allows the user to merge tones. Each switch corresponds to a different tone (green to A, yellow to C and blue to G). The intensity of the light generates how high or how low the sound will be, i.e. at high intensity the tones will be A6, C6 and G6, with medium it will be A4, C4 and G4, and with minimum intensity A2, C2 and G2.
 
-
-[This](https://drive.google.com/file/d/1ulfjGoZxMpCM56Oqk8ds434B8zzkwXdN/view?usp=sharing) is a little preview. When I adjust the potentiometer lights blink faster or slower.
+[This](https://drive.google.com/file/d/1ulfjGoZxMpCM56Oqk8ds434B8zzkwXdN/view?usp=sharing) is a little preview.
 
 ### 3. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
@@ -16,35 +15,50 @@ And real pictures:
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20171.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov172.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20173.jpg" width="300">
 
+
 ### 3. Initiating switch
-I used modulus operator to detect every second time user presses the button. This way LED can be turned on and off, user doesn't no longer have to hold the button.
+Similarly to my last project, I used modulus operator to detect every second time user presses the button. This way the sound can be played on and off, user doesn't have to hold the button.
 
 ````
-if (RedButtonState != lastRedButtonState) {
-  if (RedButtonState == HIGH) {
-    redPushCounter += 1;
-    }
-  }
-  // making a real switch, when player press the button LED is on, pressing button once again switches the LED off
-if (redPushCounter % 2 == 1) {
-  for (int fade = 0 ; fade <= 255; fade += sensorValueAdopted) {
+if (blueButtonState == HIGH) {
+  bluePushCounter += 1;
+}
+if (bluePushCounter % 2 == 1) {
 ````
 
 
-### 4. Conneccting potentiometer
-After making sure potentiometer yields values from 0 to 1023 I set an adequate frequency of fading. The greater the resistance, the quicker LED fades.
+### 4. Making an array of tones
+I have created three areas that will store certain tons. The light intensity will be used to choose from among the three melody tables. Index 0, 1, and 2 will be used to indicate the switch.
 
 ````
-int sensorValue = analogRead(A2);
-//  checking the variable resistor, it reads from 0 to 1023
-Serial.println(sensorValue);
-sensorValueAdopted= (sensorValue / 4);
+int melodyLow[] = {
+  NOTE_A2, NOTE_C2, NOTE_G2
+};
+
+int melodyMiddle[] = {
+  NOTE_A4, NOTE_C4, NOTE_G4
+};
+
+int melodyHigh[] = {
+  NOTE_A6, NOTE_C6, NOTE_G6
+};
 ````
  
-Nextly with for loop I incorporated this function. Fading works only when LED is on.
+### 4. Photoresistor
+I set `int sensorValue = analogRead (A0);` to get the reading from the photoresistor. Several if statements allowed different tones to be played depending on the reading (for blue G2, G4 or G6). I did the exact same thing for other two buttons.
 
 ````
-for (int fade = 0 ; fade <= 255; fade += sensorValueAdopted) {
-  digitalWrite(redLED, fade);
-  delay(100);
+  if (bluePushCounter % 2 == 1) {
+    if (sensorValue <= 930) {
+      tone(8, melodyLow[2]);
+    }
+    if (sensorValue > 930 and sensorValue <= 980) {
+      tone(8, melodyMiddle[2]);
+    }
+    if (sensorValue > 980) {
+      tone(8, melodyHigh[2]);
+    }
+  } else {
+    noTone(8);
+  }
 ````
