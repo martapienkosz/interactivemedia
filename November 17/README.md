@@ -5,7 +5,7 @@
 For this project I decided to use one analog sensor (potentiometer), two digital sensors (buttons) as well as two LEDs. I wanted buttons to work as a switches that turn LEDs on and off (player doesn't have to hold the button for LED to stay on). Adjusting the potentiometer additionally changes the frequency at which the LED goes out.
 
 
-[This](https://drive.google.com/file/d/1LbekkK_MaCRaURyjJek9BLZRtUQFttKl/view?usp=sharing) is a little preview. When I adjust the potentiometer lights blink faster or slower.
+[This](https://drive.google.com/file/d/1ulfjGoZxMpCM56Oqk8ds434B8zzkwXdN/view?usp=sharing) is a little preview. When I adjust the potentiometer lights blink faster or slower.
 
 ### 3. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
@@ -14,7 +14,7 @@ Here is the Schematic:
 
 And real pictures:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov101.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov102.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov104.jpg" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov171.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov172.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov174.jpg" width="300">
 
 ### 3. Initiating switch
 I used modulus operator to detect every second time user presses the button. This way LED can be turned on and off, user doesn't no longer have to hold the button.
