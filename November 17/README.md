@@ -10,11 +10,11 @@ For this project I decided to use one analog sensor (potentiometer), two digital
 ### 3. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov100.png" width="800">
+<img src="hhttps://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20170.ppg" width="800">
 
 And real pictures:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov171.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov172.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov174.jpg" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20171.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov172.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20173.jpg" width="300">
 
 ### 3. Initiating switch
 I used modulus operator to detect every second time user presses the button. This way LED can be turned on and off, user doesn't no longer have to hold the button.
