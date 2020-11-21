@@ -60,5 +60,6 @@ if (response == 'R') {
 ````  
 
 ### 6. Background Image
+To increase a aesthetic of the game I created a simple background image in Photoshop.
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov240.png" width="300">
