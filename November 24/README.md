@@ -42,7 +42,7 @@ Serial.println(secondSensor);
 
 
 ### 5. Turing the LED on
-I have established communication between Processing and Arduino by using correspondingly `myPort.write()` and `Serial.read()` functions. The `if statement` was used to change the color of the LED every time the ball reaches the area of the white rectangle.
+I used this [tutorial](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e) to discover how to connect RGB LED. I have established communication between Processing and Arduino by using correspondingly `myPort.write()` and `Serial.read()` functions. The `if statement` was used to change the color of the LED every time the ball reaches the area of the white rectangle.
 
 Processing:
 ````
