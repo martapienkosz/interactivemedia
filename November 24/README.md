@@ -13,7 +13,7 @@ Here is the Schematic:
 
 And real pictures:
 
-<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20171.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov172.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov%20173.jpg" width="300">
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov241.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov242.jpg" width="300"> <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov243.jpg" width="300">
 
 
 ### 3. Ultrasonic sensor
