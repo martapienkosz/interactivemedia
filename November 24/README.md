@@ -6,7 +6,7 @@ The idea of the game is that the user controls the movement of the ball on the s
 
 [This](https://drive.google.com/file/d/1NHkftkh1YBJvv7NzOJ9rMNpQoOk1TNax/view?usp=sharing) is a little preview.
 
-### 3. Breadbord, coneccting wires, leds and buttons.
+### 2. Breadbord, coneccting wires, leds and buttons.
 Here is the Schematic:
 
 <img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov27.png" width="800">
@@ -58,3 +58,7 @@ if (response == 'R') {
   RGB_color(255, 255, 125); // Raspberry
 }
 ````  
+
+### 6. Background Image
+
+<img src="https://github.com/martapienkosz/interactivemedia/blob/master/Media/nov240.png" width="300">
