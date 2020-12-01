@@ -27,7 +27,29 @@ void newLevel() {
 I also took into account the collisions between the checkpoint and the main sphere controlled by the sensor. Each checkpoint obtained will light a yellow LED.
 
 ````
-  if (xpos > (x1-15) && xpos < (x1+15) && ypos > (y1-15) && ypos < (y1+15)) {
-    myPort.write('Y');
-  }
+if (xpos > (x1-15) && xpos < (x1+15) && ypos > (y1-15) && ypos < (y1+15)) {
+  myPort.write('Y');
+  one = 1;
+}
 ````
+
+## Tuesday 12/1
+To increase the difficulty of the game, I decided to introduce ghost objects. They will move around the screen and reset the score in case of collision with the main ball. To indicate a collision, the LED will turn red. I plan to initiate more ghosts as the game level rises.
+
+````
+void ghosts() {
+  ellipse(xGhost1pos, yGhost1pos, 20, 20);
+  if (yGhost1pos < 15 || yGhost1pos > 625) {
+    speed1 = -speed1;
+  }
+```` 
+
+Checking for a collision and sending a signal back to arduino.
+````
+if (xpos > (xGhost1pos - 15) && xpos < (xGhost1pos + 15)) {
+  if (ypos > (yGhost1pos - 15) && ypos < (yGhost1pos + 15)) {
+    myPort.write('R');
+}
+````
+   
+
