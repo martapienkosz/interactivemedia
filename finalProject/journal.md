@@ -126,3 +126,9 @@ void mousePressed() {
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200">
 
 ## Friday, 
+Game over panel, health bar
+
+## Saturday, 
+Averaging the sensor
+
+## creating walls
