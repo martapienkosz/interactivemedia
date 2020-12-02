@@ -1,13 +1,11 @@
-## Final Project
-### Cherry-man
+# Final Project: Cherry-man
 
 ## Idea
 For my final project, I plan to extend the idea behind the "follow the line" game. I started working on it as part of the project on [November 24th](https://drive.google.com/file/d/1NHkftkh1YBJvv7NzOJ9rMNpQoOk1TNax/view?usp=sharing) and I think it is interesting enough to be the basis of my final project. I indend to follow the general concept, but would like to add several levels, enrich the visual aestethic and make it a game with a clear start and end.
 
-## Sketches
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100">
 
-## Monday 11/30
+## Monday, November 30
 As the first, I decided to program the levels of the game. Instead of strictly placing rectangles (checkpoints), I wanted them to be randomly arranged on the screen. Each time the user passes the level, the placement of the four checkpoints should change.
 
 For this, I created a function `draw Numbers ()` which selects random x and y positions for each control point. It is only called when `newNumber == 1`, i.e. when all the checkpoints at the specified level have been collected.
@@ -26,7 +24,7 @@ void objects() {
   }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr1.jpg" width= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr2.png" width= "300">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr1.jpg" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr2.png" height= "300">
 
 I also took into account the collisions between the checkpoint and the main sphere controlled by the sensor. Each checkpoint obtained will light a yellow LED.
 
@@ -48,7 +46,7 @@ void objects() {
 ````
 
 
-## Tuesday 12/1
+## Tuesday, December 1
 To increase the difficulty of the game, I decided to introduce ghost objects. They will move around the screen and reset the score in case of collision with the main ball. To indicate a collision, the LED will turn red. I plan to initiate more ghosts as the game level rises.
 
 ````
@@ -69,7 +67,7 @@ if (xpos > xposGhost[0] && xpos < (xposGhost[0] + 20)) {
 ````
 
 
-## Wednesday 12/2
+## Wednesday, December 2
 After initiating one ghost I decided it would be great to have more ghosts as the user progressed through the game. I tried to use the following code but the ghost never appeared.
 
 ````
@@ -101,7 +99,8 @@ void loop() {
 ````
 
 
-## Thursday 12/3
+## Thursday, December 3
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr5.png" width= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr4.png" width= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" width= "300">
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr5.png" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr4.png" height= "300">
 
