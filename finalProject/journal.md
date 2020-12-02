@@ -13,24 +13,38 @@ As the first, I decided to program the levels of the game. Instead of strictly p
 For this, I created a function `draw Numbers ()` which selects random x and y positions for each control point. It is only called when `newNumber == 1`, i.e. when all the checkpoints at the specified level have been collected.
 
 ````
-void drawNumbers() {
+void newLevel() {
   if (newNumber == 1) {
-    x1 = random(70, 570);
+    for (int i=0; i < 8; i++) {
+      x[i] = random(70, 560);
     .
     .
     
-void newLevel() {
-  drawNumbers();
-  ellipse(x1, y1, 30, 30);
+void objects() {
+  newLevel();
+  image(cherry, x[0], x[4], 30, 30);
+  }
 ````
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100">
 
 I also took into account the collisions between the checkpoint and the main sphere controlled by the sensor. Each checkpoint obtained will light a yellow LED.
 
 ````
-if (xpos > (x1-15) && xpos < (x1+15) && ypos > (y1-15) && ypos < (y1+15)) {
+if (xpos > x[0] && xpos < (x[0]+30) && ypos > x[4] && ypos < (x[4]+30)) {
   myPort.write('Y');
-  one = 1;
+  value[0] = 1;
 }
+````
+
+Ultimately I decided to create the impression of collecting checkpoints by making them disappear. A `value[0] == 1` means there is a collision between the main ball and the control point.
+
+````
+void objects() {
+  newLevel();
+  if (value[0] == 0) { 
+    image(cherry, x[0], x[4], 30, 30);
+  }
 ````
 
 ## Tuesday 12/1
