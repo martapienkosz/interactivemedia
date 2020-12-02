@@ -104,7 +104,7 @@ I decided to deviate from my original idea of "follow the line" Game and create 
 
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr5.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr4.png" height= "200">
 
-I also created a starting page with basic information about using sensors and the goal of the game
+I also created a starting page with basic information about using sensors and the goal of the game. User can acess it all the time by clicking at the intsrucion sign.
 
 ````
 if (keyPressed) {
