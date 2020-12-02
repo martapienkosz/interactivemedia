@@ -100,7 +100,7 @@ void loop() {
 
 
 ## Thursday, December 3
+I decided to deviate from my original idea of "follow the line" Game and create something similar to a packman. I found the appropriate graphics on the internet, and then in Photoshop I separated the elements, created a board background, a score counter and a life bar.
 
-
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr5.png" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr4.png" height= "300">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr5.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr4.png" height= "200">
 
