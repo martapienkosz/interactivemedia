@@ -26,7 +26,7 @@ void objects() {
   }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr1.jpg" width= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr2.png" width= "300">
 
 I also took into account the collisions between the checkpoint and the main sphere controlled by the sensor. Each checkpoint obtained will light a yellow LED.
 
