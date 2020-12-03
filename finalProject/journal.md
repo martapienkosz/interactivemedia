@@ -102,7 +102,7 @@ void loop() {
 ## Thursday, December 3
 I decided to deviate from my original idea of "follow the line" Game and create something similar to a packman. I found the appropriate graphics on the internet, and then in Photoshop I separated the elements, created a board background, a score counter.
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "350"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr9.png" height= "350"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "350">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr9.png" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "300">
 
 I also created a starting page with basic information about using sensors and the goal of the game. User can acess it all the time by clicking at the intsrucion sign.
 
