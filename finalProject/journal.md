@@ -100,9 +100,9 @@ void loop() {
 
 
 ## Thursday, December 3
-I decided to deviate from my original idea of "follow the line" Game and create something similar to a packman. I found the appropriate graphics on the internet, and then in Photoshop I separated the elements, created a board background, a score counter and a life bar.
+I decided to deviate from my original idea of "follow the line" Game and create something similar to a packman. I found the appropriate graphics on the internet, and then in Photoshop I separated the elements, created a board background, a score counter.
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr5.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr4.png" height= "200">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr9.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200">
 
 I also created a starting page with basic information about using sensors and the goal of the game. User can acess it all the time by clicking at the intsrucion sign.
 
@@ -123,10 +123,36 @@ void mousePressed() {
 }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200">
 
-## Friday, 
-Game over panel, health bar
+## Friday, December 4
+I have created a life list that stores information on how many times there has been a collision between spirit and pacman. Packman has three lives, after which a gameover sign appears. Clicking somewhere on the screen displayes main menu, so that user can play once again. Additionally, the LED turns red when the game end panel is displayed.
+
+````
+if (life[0] + life[1] + life[2] + life[3] + life[4] == 3) {
+    intro = 1;
+    if (mouseX > 0 && mouseX < 640 && mouseY > 0 && mouseY < 640) {
+      score = -1;
+      newNumber = 1;
+      for (int i=0; i < 5; i++) {
+        life[i] = 0;
+````
+
+I also wanted to signify how many lives were left. In the right corner I put the icons of the dead ghosts which are displayed respectively when the packman loses one life.
+
+````
+void gameOver() {
+  if (life[0] + life[1] + life[2] + life[3] + life[4] == 0) {
+    fill(0);
+    rect(522, 9, 70, 30);
+  }
+
+  if (life[0] + life[1] + life[2] + life[3] + life[4] == 1) {
+    fill(0);
+    rect(522, 9, 35, 30);
+  }
+````
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "200"> 
 
 ## Saturday, 
 Averaging the sensor
