@@ -123,7 +123,7 @@ void mousePressed() {
 }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "200"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "200">
 
 ## Friday, 
 Game over panel, health bar
