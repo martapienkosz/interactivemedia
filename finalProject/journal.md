@@ -3,9 +3,57 @@
 ## Idea
 For my final project, I plan to extend the idea behind the "follow the line" game. I started working on it as part of the project on [November 24th](https://drive.google.com/file/d/1NHkftkh1YBJvv7NzOJ9rMNpQoOk1TNax/view?usp=sharing) and I think it is interesting enough to be the basis of my final project. I indend to follow the general concept, but would like to add several levels, enrich the visual aestethic and make it a game with a clear start and end.
 
+The idea of the game is that the user controls the movement of the ball on the screen with two sensors. Its task is to follow the instructions on the screen to get the checkpoints and finaly change the color of LED to blue. Gaining a point is signified by changing the color of the LEDs from white. I used the readings from both of these sensors to control the ball x position (ultrasonic sensor) and y position(potentiometer).
+
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100">
+##### My next step will be to wire everything up and initialize the communication between Arduino and Processing
+
+
+## Sunday, November 29
+### Sensors
+
+I used following Arduino [tutorial](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6) to receive reading from the Utrasonic sensor. Nextly in procesing I maped those reading with the width of the screen xpos = map(sensors[0], 0, 30, 0, width).
+
+  ````
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  // activates the trigPin for 10 microseconds
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(30);
+  digitalWrite(trigPin, LOW);
+  // Reads the echoPin, returns the sound wave travel time in microseconds
+  duration = pulseIn(echoPin, HIGH);
+  distance = duration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
+  ````
+
+Reading from a potentiometer is relatively easier to obtain. Similarly, I mapped the results ypos = map(sensors[1], 0, 1023, 0, height)
+````
+int secondSensor = analogRead(A1);
+Serial.println(secondSensor);
+````
+
+I used [this](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e) tutorial to discover how to connect RGB LED. I have established communication between Processing and Arduino by using correspondingly myPort.write() and Serial.read() functions. The if statement was used to change the color of the LED every time the ball reaches the area of the white rectangle.
+
+Processing:
+
+````
+if (xpos> 530 && xpos<600 && ypos>40 && ypos<90) {
+  myPort.write('R');
+  one = 1;
+}
+````
+
+Arduino:
+
+````
+response = Serial.read();
+if (response == 'R') {
+  RGB_color(255, 255, 125); // Raspberry
+}
+````
 
 ## Monday, November 30
+### Levels and checkpoints
 As the first, I decided to program the levels of the game. Instead of strictly placing rectangles (checkpoints), I wanted them to be randomly arranged on the screen. Each time the user passes the level, the placement of the four checkpoints should change.
 
 For this, I created a function `draw Numbers ()` which selects random x and y positions for each control point. It is only called when `newNumber == 1`, i.e. when all the checkpoints at the specified level have been collected.
@@ -47,6 +95,7 @@ void objects() {
 
 
 ## Tuesday, December 1
+### Ghosts
 To increase the difficulty of the game, I decided to introduce ghost objects. They will move around the screen and reset the score in case of collision with the main ball. To indicate a collision, the LED will turn red. I plan to initiate more ghosts as the game level rises.
 
 ````
@@ -68,6 +117,7 @@ if (xpos > xposGhost[0] && xpos < (xposGhost[0] + 20)) {
 
 
 ## Wednesday, December 2
+### Ghosts
 After initiating one ghost I decided it would be great to have more ghosts as the user progressed through the game. I tried to use the following code but the ghost never appeared.
 
 ````
@@ -100,6 +150,7 @@ void loop() {
 
 
 ## Thursday, December 3
+### Visuals and design
 I decided to deviate from my original idea of "follow the line" Game and create something similar to a packman. I found the appropriate graphics on the internet, and then in Photoshop I separated the elements, created a board background, a score counter.
 
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "250"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr9.png" height= "250"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "250">
@@ -125,6 +176,7 @@ void mousePressed() {
 
 
 ## Friday, December 4
+### Collisions
 I have created a life list that stores information on how many times there has been a collision between spirit and pacman. Packman has three lives, after which a gameover sign appears. Clicking somewhere on the screen displayes main menu, so that user can play once again. Additionally, the LED turns red when the game end panel is displayed.
 
 ````
@@ -154,7 +206,3 @@ void gameOver() {
 
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "400"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "400"> 
 
-## Saturday, 
-Averaging the sensor
-
-## creating walls
