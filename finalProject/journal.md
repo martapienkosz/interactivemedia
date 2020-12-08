@@ -13,23 +13,7 @@ The idea of the game is that the user controls the movement of the ball on the s
 
 I used following Arduino [tutorial](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6) to receive reading from the Utrasonic sensor. Nextly in procesing I maped those reading with the width of the screen xpos = map(sensors[0], 0, 30, 0, width).
 
-  ````
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  // activates the trigPin for 10 microseconds
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(30);
-  digitalWrite(trigPin, LOW);
-  // Reads the echoPin, returns the sound wave travel time in microseconds
-  duration = pulseIn(echoPin, HIGH);
-  distance = duration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
-  ````
-
 Reading from a potentiometer is relatively easier to obtain. Similarly, I mapped the results ypos = map(sensors[1], 0, 1023, 0, height)
-````
-int secondSensor = analogRead(A1);
-Serial.println(secondSensor);
-````
 
 I used [this](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e) tutorial to discover how to connect RGB LED. I have established communication between Processing and Arduino by using correspondingly myPort.write() and Serial.read() functions. The if statement was used to change the color of the LED every time the ball reaches the area of the white rectangle.
 
