@@ -6,7 +6,6 @@ For my final project, I plan to extend the idea behind the "follow the line" gam
 The idea of the game is that the user controls the movement of the ball on the screen with two sensors. Its task is to follow the instructions on the screen to get the checkpoints and finaly change the color of LED to blue. Gaining a point is signified by changing the color of the LEDs from white. I used the readings from both of these sensors to control the ball x position (ultrasonic sensor) and y position(potentiometer).
 
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/finalproject_sketch.png" width= "1100">
-##### My next step will be to wire everything up and initialize the communication between Arduino and Processing
 
 
 ## Sunday, November 29
@@ -92,7 +91,7 @@ void objects() {
     image(cherry, x[0], x[4], 30, 30);
   }
 ````
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman.png" height= "150">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "150"> 
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman.png" height= "75">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "75"> 
 
 ## Tuesday, December 1
 ### Ghosts
@@ -106,7 +105,7 @@ void ghosts() {
   }
 ```` 
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost1.png" height= "150"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost2.png" height= "150"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost3.png" height= "150"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost4.png" height= "150">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost1.png" height= "75"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost2.png" height= "75"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost3.png" height= "75"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost4.png" height= "75">
 
 
 Checking for a collision and sending a signal back to arduino.
@@ -156,7 +155,7 @@ void loop() {
 ### Visuals and design
 I decided to deviate from my original idea of "follow the line" Game and create something similar to a packman. I found the appropriate graphics on the internet, and then in Photoshop I separated the elements, created a board background, a score counter.
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "250"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr9.png" height= "250"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "250">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr3.png" height= "400"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr9.png" height= "400"> 
 
 I also created a starting page with basic information about using sensors and the goal of the game. User can acess it all the time by clicking at the intsrucion sign.
 
@@ -176,6 +175,8 @@ void mousePressed() {
   }
 }
 ````
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "400">
 
 
 ## Friday, December 4
