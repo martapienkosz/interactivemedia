@@ -243,6 +243,14 @@ After some attepts I droped the idea of packman moving up, down and to the left.
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo5.gif)
 
 
+## Sunday, December 6
+### Averaging the sensor
+
+I used this [tutorial](https://www.arduino.cc/en/pmwiki.php?n=Tutorial/Smoothing) to learn how to smooth the sensors. I had a problem with the ultrasonic sensor in particular, so I decided to improve its readlings. It seems to me that the potentiometer is quite accurate.
+
+
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo7.gif)
+
 
 ## Monday, December 7
 ### Final touches
