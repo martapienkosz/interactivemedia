@@ -92,7 +92,7 @@ void objects() {
     image(cherry, x[0], x[4], 30, 30);
   }
 ````
-
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman.png" height= "150">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "150"> 
 
 ## Tuesday, December 1
 ### Ghosts
@@ -105,6 +105,9 @@ void ghosts() {
     speed[0] = -speed[0];
   }
 ```` 
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost1.png" height= "150"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost2.png" height= "150"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost3.png" height= "150"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/ghost4.png" height= "150">
+
 
 Checking for a collision and sending a signal back to arduino.
 
@@ -141,7 +144,7 @@ if (score > 3) {
 }
 ````
 
-Ultimately I decided to add a side switch so that the LED and sensors would not light up the entire time the arduino is plugged in.
+I also decided to add a side switch so that the LED and sensors would not light up the entire time the arduino is plugged in.
 
 ````
 void loop() {
