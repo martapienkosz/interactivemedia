@@ -55,6 +55,10 @@ if (response == 'R') {
 ### Levels and checkpoints
 As the first, I decided to program the levels of the game. Instead of strictly placing rectangles (checkpoints), I wanted them to be randomly arranged on the screen. Each time the user passes the level, the placement of the four checkpoints should change.
 
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr1.jpg" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr2.png" height= "300">
+
+
 For this, I created a function `draw Numbers ()` which selects random x and y positions for each control point. It is only called when `newNumber == 1`, i.e. when all the checkpoints at the specified level have been collected.
 
 ````
@@ -71,7 +75,6 @@ void objects() {
   }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr1.jpg" height= "300"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr2.png" height= "300">
 
 I also took into account the collisions between the checkpoint and the main sphere controlled by the sensor. Each checkpoint obtained will light a yellow LED.
 
@@ -116,6 +119,9 @@ if (xpos > xposGhost[0] && xpos < (xposGhost[0] + 20)) {
   myPort.write('R');
 }
 ````
+
+
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo1.gif)
 
 
 ## Wednesday, December 2
@@ -176,7 +182,7 @@ void mousePressed() {
 }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr6.png" height= "400">
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo2.gif)
 
 
 ## Friday, December 4
@@ -193,7 +199,6 @@ if (life[0] + life[1] + life[2] + life[3] + life[4] == 3) {
         life[i] = 0;
 ````
 
-![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/video1.mp4)
 
 I also wanted to signify how many lives were left. In the right corner I put the icons of the dead ghosts which are displayed respectively when the packman loses one life.
 
@@ -209,6 +214,8 @@ void gameOver() {
     rect(522, 9, 35, 30);
   }
 ````
+
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo3.gif)
 
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "400"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "400"> 
 
