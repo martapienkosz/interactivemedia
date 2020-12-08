@@ -229,6 +229,6 @@ void gameOver() {
 
 In the last phase of the project, I created the schematics. I believe my game is running smoothly and no further improvement is needed. Overall, I'm happy with how everything is combined into one finished project.
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr11.png" height= "900">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr11.png" height= "700">
 
 
