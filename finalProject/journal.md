@@ -224,11 +224,29 @@ void gameOver() {
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo3.gif)
 
 
+## Saturday, December 5
+### Sprites
+
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr13.png" height= "200">
+
+Finally, I decided to change the image of pacman so that it appears to be animated. So I downloaded sprites form the internet and modified them slightly in the photoshop. I wanted create an array with the following code but it didn't work.
+
+```
+if (frameCount%3==0) {
+  step = (step+1) % 3;
+}
+image(packman_spritesheet, xpos, ypos, 60, 20, 0+(step*20), 0, 20+(step*20), 20);
+```
+
+After some attepts I droped the idea of packman moving up, down and to the left. Because of certain uncertainty with my sensors it became really hard to tell in which direction in the packman moving. This is the result:
+
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo5.gif)
+
+
+
 ## Monday, December 7
 ### Final touches
 
 In the last phase of the project, I created the schematics. I believe my game is running smoothly and no further improvement is needed. Overall, I'm happy with how everything is combined into one finished project.
 
 <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr11.png" width= "800">
-
-
