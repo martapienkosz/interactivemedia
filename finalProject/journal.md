@@ -227,7 +227,7 @@ void gameOver() {
 ## Saturday, December 5
 ### Sprites
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr13.png" height= "200">
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr13.png" height= "75">
 
 Finally, I decided to change the image of pacman so that it appears to be animated. So I downloaded sprites form the internet and modified them slightly in the photoshop. I wanted create an array with the following code but it didn't work.
 
