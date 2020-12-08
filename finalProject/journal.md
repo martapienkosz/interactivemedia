@@ -193,6 +193,8 @@ if (life[0] + life[1] + life[2] + life[3] + life[4] == 3) {
         life[i] = 0;
 ````
 
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/video1.mp4)
+
 I also wanted to signify how many lives were left. In the right corner I put the icons of the dead ghosts which are displayed respectively when the packman loses one life.
 
 ````
