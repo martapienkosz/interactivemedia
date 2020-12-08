@@ -97,6 +97,9 @@ void objects() {
   }
 ````
 
+The LED indicates various User interactions, white is a regular game phase, yellow is the checkpoint, and red is ghost collision.
+![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo4.gif)
+
 
 ## Tuesday, December 1
 ### Ghosts
@@ -220,5 +223,13 @@ void gameOver() {
 ````
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo3.gif)
+
+
+## Monday, December 7
+### Final touches
+
+In the last phase of the project, I created the schematics. I believe my game is running smoothly and no further improvement is needed. Overall, I'm happy with how everything is combined into one finished project.
+
+<img scr = "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr11.png", width = "600">
 
 
