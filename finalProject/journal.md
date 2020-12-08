@@ -85,6 +85,8 @@ if (xpos > x[0] && xpos < (x[0]+30) && ypos > x[4] && ypos < (x[4]+30)) {
 }
 ````
 
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman.png" height= "75">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "75"> 
+
 Ultimately I decided to create the impression of collecting checkpoints by making them disappear. A `value[0] == 1` means there is a collision between the main ball and the control point.
 
 ````
@@ -94,7 +96,7 @@ void objects() {
     image(cherry, x[0], x[4], 30, 30);
   }
 ````
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman.png" height= "75">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "75"> 
+
 
 ## Tuesday, December 1
 ### Ghosts
@@ -202,6 +204,8 @@ if (life[0] + life[1] + life[2] + life[3] + life[4] == 3) {
 
 I also wanted to signify how many lives were left. In the right corner I put the icons of the dead ghosts which are displayed respectively when the packman loses one life.
 
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "400"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "400"> 
+
 ````
 void gameOver() {
   if (life[0] + life[1] + life[2] + life[3] + life[4] == 0) {
@@ -217,5 +221,4 @@ void gameOver() {
 
 ![alt-text](https://github.com/martapienkosz/interactivemedia/blob/master/Media/gvideo3.gif)
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr7.png" height= "400"> <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr8.png" height= "400"> 
 
