@@ -239,6 +239,4 @@ I used this [tutorial](https://www.arduino.cc/en/pmwiki.php?n=Tutorial/Smoothing
 ## Monday, December 7
 ### Final touches
 
-In the last phase of the project, I created the schematics. I believe my game is running smoothly and no further improvement is needed. Overall, I'm happy with how everything is combined into one finished project.
-
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/Media/scr11.png" width= "800">
+I believe my game is running smoothly and no further improvement is needed. Overall, I'm happy with how everything is combined into one finished project.
