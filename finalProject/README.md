@@ -13,8 +13,9 @@ The idea of the game is that the user controls the movement of packman on the sc
 
 ### Video
 
-<li> [Here](https://drive.google.com/file/d/1tTu0cZ11i4OVjSsQgJ17QdALKf_O11EA/view?usp=sharing) you can find a game preview showing the interaction between Processing and Arduino. </li>
-<li> [Here](https://drive.google.com/file/d/1tQZ-tte18zLt6rMmS_dTMdtvdNMafPEc/view?usp=sharing), however, you can find a video of the game. </li>
+[Here](https://drive.google.com/file/d/1tTu0cZ11i4OVjSsQgJ17QdALKf_O11EA/view?usp=sharing) you can find a game preview showing the interaction between Processing and Arduino. 
+
+[Here](https://drive.google.com/file/d/1tQZ-tte18zLt6rMmS_dTMdtvdNMafPEc/view?usp=sharing), however, you can find a video of the game.
 
 
 ### Schematics
@@ -23,3 +24,4 @@ The idea of the game is that the user controls the movement of packman on the sc
 
 
 ### Challenges
+<li>
