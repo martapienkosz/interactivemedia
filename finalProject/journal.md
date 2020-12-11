@@ -69,7 +69,7 @@ if (xpos > x[0] && xpos < (x[0]+30) && ypos > x[4] && ypos < (x[4]+30)) {
 }
 ````
 
-<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman.png" height= "75">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "75"> 
+<img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/packman2.png" height= "75">  <img src= "https://github.com/martapienkosz/interactivemedia/blob/master/finalProject/data/cherry.png" height= "75"> 
 
 Ultimately I decided to create the impression of collecting checkpoints by making them disappear. A `value[0] == 1` means there is a collision between the main ball and the control point.
 
