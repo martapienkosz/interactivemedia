@@ -24,4 +24,6 @@ The idea of the game is that the user controls the movement of packman on the sc
 
 
 ### Challenges
-<li>
+<li> I spend quite a lot of time figuring out how to map readings form the sensors with x and y position of the packman. The ultrasonic sensor isn’t accurate enough and this created an impression of packman spontaneous jumping out of the screen. I managed to smooth the sensor by averaging the readings which partly solved the problem. </li>
+<li> Displaying instruction and game over pages as well as turning the LEDs on after the collisions involved a very careful coding. I had to create several a variables and think carefully where to put specific lines of codes. At the end I think creating a finished game allowed me to understand how the code is being processed by the computer. I am really satisfied with how smoothly all transitions are being executed. </li>
+
